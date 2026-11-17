@@ -1,0 +1,29 @@
+# ─── Dependencies ────────────────────────────────────────────
+node_modules/
+
+# ─── Build outputs ───────────────────────────────────────────
+dist/
+build/
+
+# ─── Environment (NEVER commit this) ─────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+out.log
+err.log
+
+# ─── Uploads (user files stored locally) ─────────────────────
+uploads/
+
+# ─── OS & Editor ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ─── Testing ─────────────────────────────────────────────────
+coverage/
